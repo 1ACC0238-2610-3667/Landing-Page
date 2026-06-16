@@ -104,10 +104,7 @@
       <div class="row g-4">
         <div class="col-md-6">
           <div class="video-wrapper">
-            <video controls poster="assets/images/PORTADA-ABOUT-THE-PRODUCT1.png" preload="none">
-              <source src="assets/videos/upc-pre-202520-1asi0730-7432-SymmetriQ-about-the-product-sprint-2.mp4" type="video/mp4">
-              Tu navegador no soporta el video.
-            </video>
+            <iframe src="https://www.youtube.com/embed/NVFVIfCgTQ4" title="Splitly - About the Product" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
         <div class="col-md-6">
@@ -863,7 +860,7 @@
       col.innerHTML = `
           <div class="feature-card text-center">
             <div class="feature-icon"><i class="${feature.iconClass}"></i></div>
-            <h5 class= "faeture-title">${t(feature.title)}</h5>
+            <h5 class="feature-title">${t(feature.title)}</h5>
             <p class="feature-description mb-0">${t(feature.description)}</p>
           </div>
       `;
